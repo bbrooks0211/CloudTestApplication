@@ -1,8 +1,8 @@
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
-<spring:url value="/library/main" var="homeURL" />
-<spring:url value="/settings" var="settingsURL" />
+<spring:url value="/forum" var="homeURL" />
+<spring:url value="/#" var="settingsURL" />
 <spring:url value="/logout" var="logout" />
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

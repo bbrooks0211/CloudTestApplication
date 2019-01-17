@@ -6,13 +6,13 @@
 <div align="center">
 	<div class="login-module">
 		<h1>Login</h1>
-		<form:form method="POST" modelAttribute="user" action="registerUser">
+		<form:form method="POST" modelAttribute="user" action="loginUser">
   <div class="form-group">
   	<div class="col-4 log-field">
 		<form:label path="username">Username</form:label>
-		<form:input class="form-control" type="email" path="email" />
+		<form:input class="form-control" path="username" />
 	 </div>
-	 <form:errors path="email"/>
+	 <form:errors path="username"/>
   </div>
   <div class="form-group">
   	<div class="col-4 log-field">
@@ -21,16 +21,9 @@
 	</div>
 	<form:errors path="password"/>
   </div>
-  <div class="form-group">
-  	<div class="col-4 log-field">
-		<form:label path="passwordConfirmation">Confirm Password</form:label>
-		<form:password class="form-control" path="passwordConfirmation" />
-	</div>
-	<form:errors path="passwordConfirmation"/>
-  </div>
-  
-  <input type="submit" value="Submit" class="btn btn-default" />
-	<p id="toLoginForm"><a href="#">Return to login</a></p>
+  <input type="submit" value="Submit" class="btn btn-default" style="margin-bottom: 15px;"/>
+  	    <spring:url value="/register" var="register" />
+	<p id="toRegisterForm"><a href="${register}">Don't have an account? Register Here.</a></p>
 </form:form>
 	</div>
 </div>

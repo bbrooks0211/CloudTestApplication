@@ -1,5 +1,7 @@
 package com.app.data;
 
+import java.util.List;
+
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -83,6 +85,12 @@ public class UserDAO implements DataAccessInterface<User>{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	@Override
+	public List<User> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	@Override
 	public boolean update(User model) {
@@ -101,4 +109,5 @@ public class UserDAO implements DataAccessInterface<User>{
 		this.dataSource = dataSource;
 		this.jdbcTemplateObject = new JdbcTemplate(dataSource);
 	}
+
 }

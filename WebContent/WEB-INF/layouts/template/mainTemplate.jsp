@@ -18,6 +18,8 @@
 	 <link rel="stylesheet" href="${bootstrapCssLink}" />
 	 <link rel="stylesheet" href="${styleLink}" />
 	 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
 	<!-- Header -->
