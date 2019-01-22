@@ -60,9 +60,9 @@ public class ApplicationConfig {
 	{
 		DataSource dataSource = new DataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/cloudtestapp");
-		dataSource.setUsername("root");
-		dataSource.setPassword("root"); 
+		dataSource.setUrl("jdbc:mysql://localhost:50346/cloudtestapp");
+		dataSource.setUsername("azure");
+		dataSource.setPassword("6#vWHD_$"); 
 		dataSource.setInitialSize(6);
 		dataSource.setTestOnBorrow(true);
 		dataSource.setValidationQuery("SELECT 1");

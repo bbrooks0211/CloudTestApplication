@@ -11,7 +11,7 @@
 	<definition name="register" extends="MainTemplate">
     	<put-attribute name="body" value="/WEB-INF/pages/register.jsp" />
     </definition>
-    	<definition name="helloWorld" extends="MainTemplate">
-    	<put-attribute name="body" value="/WEB-INF/pages/HelloWorld.jsp" />
+    <definition name="helloWorld" extends="MainTemplate">
+    	<put-attribute name="body" value="/WEB-INF/pages/helloWorld.jsp" />
     </definition>
 </tiles-definitions>
